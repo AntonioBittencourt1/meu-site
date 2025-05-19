@@ -1,0 +1,21 @@
+body {
+  background-color: #1169b6;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
+
+.meu-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.meu-link:hover {
+  color: red;
+}

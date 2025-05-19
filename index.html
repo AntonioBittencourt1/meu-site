@@ -1,101 +1,53 @@
-<!doctype html>
-<html></html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <style>
-    body {
-      background-color: #1169b6; /* cor suave de sua preferência */
-    }
-  </style>
-</head>
-
-</head>
-    <title>Meu Site</title>
-</head>    
-    
-<body></body>    
-    <h1 style="color: #6e1e0c; text-align: center;">Antonio Jose de Santana Bittencourt</h1>
-    <head>
-  <style>
-    p {
-      font-size: 20px;
-      text-align: justify;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>Meu Site</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>Antonio Jose, 48 anos, Nova Soure-Ba, Flamengo, carros, Forro.</p>
-</body>
- <br>
-<h1>Hobbies</h1>
 
-<head>
-  <style>
-    ul li {
-      margin-bottom: 15px; /* ajusta o valor para o espaçamento desejado */
-    }
-  </style>
-</head>
-<body>
+  <h1 style="color: #6e1e0c; text-align: center;">Antonio Jose de Santana Bicencourt</h1>
+
+  <p>Antonio Jose, 48 anos, Nova Soure-BA, Flamengo, carros, Forró.</p>
+
+  <h1>Hobbies</h1>
   <ul>
     <li>Torcer pelo Flamengo</li>
     <li>Reunir com amigos</li>
-    <li>Colecionar Vinhos</li>
+    <li>Colecionar vinhos</li>
   </ul>
+
+  <img src="Imagens/Imagem Flamengo" width="200" style="border-radius: 10px; max-width: 100%; height: auto;">
+
+  <table>
+    <tr>
+      <th>País</th>
+      <th>Imagem</th>
+    </tr>
+    <tr>
+      <td>Itália</td>
+      <td><img src="Imagens/Italia.jfif" alt="Italia" width="100"></td>
+    </tr>
+    <tr>
+      <td>França</td>
+      <td><img src="Imagens/Franca.jfif" alt="Franca" width="100"></td>
+    </tr>
+    <tr>
+      <td>Portugal</td>
+      <td><img src="Imagens/Portugal.jfif" alt="Portugal" width="100"></td>
+    </tr>
+  </table>
+
+  <br>
+
+  <a href="https://www.flamengo.com.br/" class="meu-link">Clique aqui para visitar o site de interesse</a>
+
+  <br><br>
+
+  <button id="meuBotao">Clique para ver uma mensagem!</button>
+  <div id="mensagem"></div>
+
+  <script src="script.js"></script>
 </body>
-<br>
-
-<img src="Imagens/Imagem Flamengo" width="200" style="border-radius: 10px; max-width: 100%; height: auto;">
-<br>
-<br>
-
-    <body></body>
-<table>
-<tr>
-   <table>
-  <tr>
-    <th>Pais</th>
-    <th>Imagem</th>
-  </tr>
-  <tr>
-    <td>Italia</td>
-    <td><img src="Imagens/Italia.jfif" alt="Italia" width="100"></td>
-  </tr>
-  <tr>
-    <td>Franca</td>
-    <td><img src="Imagens/Franca.jfif" alt="Franca" width="100"></td>
-  </tr>
-  <tr>
-    <td>Portugal</td>
-    <td><img src="Imagens/Portugal.jfif" alt="Portugal" width="100"></td>
-  </tr>
-</table>
-<br>
-<br>
-<style>
-.meu-link {
-  color: azul;
-  text-decoration: none;
-}
-.meu-link:hover {
-  color: vermelho;
-}
-</style>
-    <a href="https://www.flamengo.com.br/">Clique aqui para visitar o site de interesse</a>
-</a>
-
-      <button id="meuBotao">Clique para ver uma mensagem!</button>
-      
-      <div id="mensagem"></div>
-
-<script>
-  
-      const botao = document.getElementById('meuBotao');
-
-       botao.addEventListener('click', function() {
-    
-       const divMensagem = document.getElementById('mensagem');
-    
-    divMensagem.innerHTML = 'Seja bem-vindo! Voce consegue conquistar seus objetivos!';
-  });
-</script>
- <html></html>     
+</html>
